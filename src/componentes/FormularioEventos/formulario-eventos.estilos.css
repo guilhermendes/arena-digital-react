@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+
+.container section {
+  padding: 0 20px;
+}
+.form-evento {
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.campos {
+  display: flex;
+  flex-wrap: nowrap; /* força uma linha só */
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.campo-form {
+  flex: 1; /* divide igualmente */
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.acoes {
+  flex-shrink: 0; /* botão não encolhe */
+}
+
+@media (max-width: 768px) {
+  .campos {
+    flex-wrap: wrap; /* quebra no tablet/mobile */
+  }
+
+  .campo-form {
+    flex: 1 1 100%; /* um por linha */
+  }
+
+  .acoes {
+    width: 100%;
+  }
+}

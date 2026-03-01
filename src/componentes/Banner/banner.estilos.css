@@ -1,0 +1,62 @@
+.banner {
+  width: 100%;
+  min-height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  box-sizing: border-box;
+  background: url("fundo-quadra.png") #ff6400 no-repeat top / 250% 45%;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 432px;
+  height: auto;
+  display: block;
+  animation: aparecer 1s ease forwards;
+}
+
+.banner p {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+  max-width: 250px;
+  line-height: 1.5;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner {
+    height: 25vh;
+    flex-direction: row;
+    background:
+      url("fundo-quadra.png") no-repeat center / cover,
+      linear-gradient(#f58a3a, #df6220);
+  }
+
+  .banner img {
+    width: 432px;
+    height: 413px;
+  }
+
+  .banner p {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,76 @@
+.eventos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.Card-evento {
+  width: 225px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.Card-evento:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.Card-evento img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px 16px 0 0;
+}
+
+.Card-evento .corpo {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.Card-evento .tag {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background: linear-gradient(#f58a3a, #df6220);
+  padding: 4px 10px;
+  border-radius: 50px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.Card-evento .data {
+  font-size: 13px;
+  color: #aaa;
+  font-weight: 500;
+}
+
+.Card-evento .titulo {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a2e4a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.Card-evento p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .eventos {
+    justify-content: flex-start;
+  }
+}

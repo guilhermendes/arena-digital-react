@@ -1,0 +1,8 @@
+.campo-form {
+  border: none;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
