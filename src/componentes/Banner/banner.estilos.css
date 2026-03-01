@@ -8,7 +8,7 @@
   align-items: center;
   padding: 24px 16px;
   box-sizing: border-box;
-  background: url("./fundo-quadra.png") #ff6400 no-repeat top / 250% 45%;
+  background: url("/fundo-quadra.png") #ff6400 no-repeat top / 250% 45%;
 }
 
 .banner img {
