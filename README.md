@@ -29,3 +29,5 @@ Arena Digital é uma aplicação web para organizar e descobrir eventos esportiv
 npm install
 npm run dev
 ```
+🔗 Acesse a aplicação: 
+https://arena-digital.vercel.app
