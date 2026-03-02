@@ -6,7 +6,7 @@ Projeto desenvolvido durante os estudos de **React 19: JSX, Componentes, Form Ac
 
 Arena Digital é uma aplicação web para organizar e descobrir eventos esportivos em um só lugar. O projeto foi criado com o objetivo de praticar os conceitos fundamentais do React 19.
 
-
+![](screen-capture.png)
 
 ## 🚀 Conceitos praticados
 
