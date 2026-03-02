@@ -47,7 +47,7 @@
     height: 25vh;
     flex-direction: row;
     background:
-      url("fundo-quadra.png") no-repeat center / cover,
+      url("/fundo-quadra.png") no-repeat center / cover,
       linear-gradient(#f58a3a, #df6220);
   }
 
